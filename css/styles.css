@@ -71,7 +71,18 @@ h4{
 	margin-top: 10%;
 	margin-bottom: 30%;
 	width: 300px;
-	color: black;
+	color: white;
+}
+
+.rclipmid{
+	font-size: 18px;
+	font-family: sans-serif;
+	text-align: left;
+	margin-left: 70%;
+	margin-top: 10%;
+	margin-bottom: 30%;
+	width: 300px;
+	color: white;
 }
 
 .rcliptext{
