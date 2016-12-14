@@ -118,7 +118,7 @@ h4{
 }
 
 .nbcmob{
-    background: url(http://media4.s-nbcnews.com/j/newscms/2014_17/397176/140424-idf-israel-gp-630a_10c01eb729ad812dc057011a78d25589.nbcnews-fp-440-440.jpg) right center fixed no-repeat;
+    background: url(http://media4.s-nbcnews.com/j/newscms/2014_17/397176/140424-idf-israel-gp-630a_10c01eb729ad812dc057011a78d25589.nbcnews-fp-800-440.jpg) right center fixed no-repeat;
     margin-left: 85px;
     margin-right: 85px;
     background-size: 700px 600px;
@@ -146,7 +146,7 @@ h4{
 }
 
 .gpleaving{
-    background: url(http://www.globalpost.com/sites/default/files/styles/w512/public/photos/2014-March/454546527.jpg?itok=csslpFL8) right center fixed no-repeat;
+    background: url(http://cdn1.pri.org/sites/default/files/styles/story_main/public/photos/2014-March/454546527.jpg?itok=hpqx-WAu) right center fixed no-repeat;
     margin-left: 85px;
     margin-right: 85px;
     background-size: 700px 600px;
@@ -167,7 +167,7 @@ h4{
 }
 
 .gpwall{
-    background: url(http://www.globalpost.com/sites/default/files/styles/w512/public/photos/2014-September/2014sept24_western_wall.jpg?itok=XGVTpgHe) left center fixed no-repeat;
+    background: url(http://cdn1.pri.org/sites/default/files/styles/story_main/public/photos/2014-September/2014sept24_western_wall.jpg?itok=ok0CpddD) left center fixed no-repeat;
     margin-left: 85px;
     margin-right: 85px;
     background-size: 700px 600px;
@@ -242,4 +242,58 @@ p{
 .time_header{
 	color: #aeaeae;
 	font-weight: 400;
+}
+
+.blogbody{
+	margin-left: 85px;
+   	margin-right: 85px;
+}
+
+.blogheaders{
+	font-size: 45px;
+	font-family: "Jura";
+	font-weight: strong;
+	text-align: left;
+	width: 500px;
+}
+
+.linkheader {
+	font-size: 25px;
+	font-family: sans-serif;
+	color: black;
+	text-align: left;
+}
+
+.projectlinks {
+	font-size: 20px;
+	font-family: sans-serif;
+	color: black;
+	text-align: left;
+}
+
+.blogdate {
+	font-size: 16px;
+	font-weight: 200;
+	font-family: sans-serif;
+	text-align: left;
+}
+
+.blogtext {
+	font-size: 20px;
+	font-family: serif;
+	color: black;
+	text-align: left;
+}
+
+.sidebar {
+  position: fixed;
+  right: 100px;
+  top: 30%;
+  width: 16em;
+  margin-top: -2.5em;
+}
+
+@font-face {
+	font-family: "Jura";
+	src: url("../fonts/Jura-DemiBold.ttf");
 }

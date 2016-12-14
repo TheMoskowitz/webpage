@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content=“jeff moskowitz“ /> 
+		<meta name="description" content=“jeff moskowitz, journalist, jerusalem.” /> 
+		<meta name="keywords" content=“jeff moskowitz, journalist, jerusalem, journalism, israel” />
+		<title>jeff moskowitz - journalist</title> 
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+
+
+	</head>
+	<body>
+		<div class="container">
+
+			<div class="row">
+				<div class="col-sm-12" style="clear: both;">
+					<p class="alignleft"><b>jeff moskowitz</b></p>
+					<br> 
+					<p class="alignright"><a href="index.html">journalism</a> engineering</p>
+
+			<br>
+			<br>
+				</div>
+			</div>
+
+		<hr>
+		
+
+		</div>
+
+		<div class="row">
+  			<div class="col-md-9">
+				<div class="blogbody">
+					<div class="blogheaders"><a name="RoboTrumpAnchor"><b>Robo-Trump</b></a></div>
+					<br>
+
+					<iframe width="600" height="425"
+src="https://www.youtube.com/embed/opKqUviw3y8">
+</iframe>
+					<br>
+					<br>
+					<p class="lead">Our project for GeekCon 2016 - Robo-Trump!
+<br>
+<br>
+We built this over the course of a long weekend. Robo-Trump is controlled by an app and has two tasks. The first task is Greet the Voters. When Greeting the Voters, Robo-Trump looks around for faces and when he finds one, he checks the person's skin color and then insults him or her with increasing severity depending on how dark the person's skin is (so as to resemble the real Donald Trump).
+<br>
+<br>
+Robo-Trump's other task is Speech. If you choose this task then the robot gives an impassioned speech about inferior quality Chinese and Mexican robots stealing the jobs of their hardworking American counterparts.
+<br>
+<br>
+We also went to some lengths to mimic Trump's distinctive hand gestures (he's a fully-functional robotic torso with arms that bend at the shoulder and elbow as well as servos at the neck and waist). His movements were programmed with the ROSS system.
+<br>
+<br>
+I was responsible for Robo-Trump's control app, his text-to-speech and his computer vision system (plus all of his insults). My teammates Ziv Barcesat, Oren Meiri, Gil Meiri and Omer Koren and I were quite proud of our final robotic candidate, though admittedly he was only ~85% finished by the end of the Hackathon.
+<br>
+<br>
+We have made the code available on github but it comes with a pretty severe WARNING. This is Hackathon code, put together with no sleep and at breakneck speed. It is NOT readable, dependable production code -- it is held together with duct tape and silly putty. Some of it probably doesn't work and whatever is uploaded may not have been the final product. <a href="https://github.com/barcesat/RoboTrump">Please judge accordingly</a>.
+</p>
+								
+					
+					<br>
+					<br>
+					<br>
+					<div class="blogheaders"><a name="RufusAnchor"><b>Rufus the Personal Assistant</b></a></div>
+					<br>
+					<iframe width="600" height="425"
+src="https://www.youtube.com/embed/70l2b662KCY">
+</iframe>
+					<br>
+					<br>
+					<p class="lead">This is a project I built to control the various electronic devices in my room. The android app uses bluetooth to connect to the arduino which then, through a system of relays, controls the power flowing into each outlet of the surge protector. I keep each device I want to control plugged into the surge protector and can then turn them on and off from the app.
+<br>
+<br>
+The ingredients are a smartphone, an arduino uno, relays, a bluetooth module (HC-05) and a store-bought surge protector. If you are trying to replicate this, make sure to buy a surge protector that you can open with regular screwdrivers. Many of them are specifically designed to prevent you getting in and rewiring them. And, this should go without saying, but be very sure which wires are which when you do open it up. This will be plugged into the wall and wiring it wrong can do serious damage. Definitely have someone else double check what you're doing. Finally make sure to use electrician grade wire (the very thick kind). If you use typical hobby wires with this project (or any that involves mains power) you are setting yourself up for disaster and may well be putting yourself in danger.
+<br>
+<br>
+I've been using this thing for almost a year now and in that time I've made some updates to the code that you may find useful. A quirk of bluetooth connection protocol is that there is no automatic programmatic notice when you are out of range. One way to solve this problem would be to ping the bluetooth device every ten seconds to make sure the connection is still valid but that seemed particularly wasteful to me. So instead, this app only performs the check when a button is pressed. If you press a button, the app will set a timer and if it doesn't receive a response in that time (a second or two) it will attempt to reconnect. If the reconnect fails you will know you're not connected as the borders of the buttons will turn off. Otherwise it will get the current on/off status of each of the outlets and display them to you.
+<br>
+<br>
+You can find the code for both the android app and the arduino on my <a href="https://github.com/TheMoskowitz/Bluetooth-Control-of-Electrical-Outlets">github page</a>.
+</p>				
+
+<br>
+<br>
+<br>
+
+
+					<div class="blogheaders"><a name="NintendoAnchor"><b>The Nintendophone</b></a></div>
+					<br>
+					<iframe width="600" height="425"
+src="https://www.youtube.com/embed/sTQomh0gtog">
+</iframe>
+					<br>
+					<br>
+					<p class="lead">The Nintendophone is a musical instrument that can be played the way you would a video game. The name Nintendophone is a combination of the gaming company "Nintendo" and the musical suffix "phone" (think saxophone or xylophone).
+<br>
+<br>
+It was built with an arduino, a sparkfun musical instrument shield, a switch, a joystick, some black perspex and a bunch of buttons. It's based around scales, which you can cycle through with the yellow button (at the moment it includes blues, major, minor and a spanish phrygian scale I like). The notes are played with the joystick. I've given it a sort of dirty, electric trumpet sound. You can also use the other buttons to change the octave and key signature.
+<br>
+<br>
+The Nintendophone also has two special features: flipping the switch on the side turns it into a drumset and if you hit all the buttons at the same time, it plays the Super Mario Brothers Theme.
+<br>
+<br>
+If I were to build it again, I would probably include an on/off switch and volume control. Right now I just plug it in to turn it on and I use the amp volume control, but it would be handy if I had it at my fingertips on the device itself. I would also probably switch out the drumset which I don't use that often for an 8-bit sound.
+<br>
+<br>
+You can find the Nintendophone's code on my <a href="https://github.com/TheMoskowitz/Nintendophone">github page</a>.
+</p>		
+
+					<br>
+					<br>
+					<br>
+					<div class="blogheaders"><a name="TalkingBoxAnchor"><b>The Talking Box</b></a></div>
+					<br>
+
+					<iframe width="600" height="425"
+src="http://www.youtube.com/embed/b8PXJvKJyc4">
+</iframe>
+					<br>
+					<br>
+					<p class="lead">Why does the Talking Box exist? It's a mystery.
+<br>
+<br>
+I built it with an arduino, a servo, a really cool emic 2 chip I had lying around and a wine box a friend was storing at my house (sorry Lee). I had to play with the code for awhile to get it to open and close its mouth at an appropriate speed, with semi-natural pauses between sentences. Initially I thought I would have it read out my emails to me in the morning but upon further testing, I concluded it was too annoying for that purpose. So now I'm open to suggestions.</p>			
+
+				</div>
+			</div>
+ 			<div class="col-md-3 sidebar hidden-xs hidden-sm">
+				<div class="header">
+								<h4><span style="link header">projects</span></h4>
+							</div>
+
+<p class="projectlinks">
+<a href="#RoboTrumpAnchor">Robo-Trump</a>
+<br>						
+<a href="#RufusAnchor">Rufus the Personal Assistant</a>
+<br>
+<a href="#NintendoAnchor">The Nintendophone</a>
+<br>
+<a href="#TalkingBoxAnchor">Talking Box</a>	
+</p>
+
+
+
+				</div>
+
+
+			</div>
+		
+		
+		</div>
+
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-76518794-1', 'auto');
+  ga('send', 'pageview');
+
+</script>		
+
+
+
+		
+	</body>
+</html>
