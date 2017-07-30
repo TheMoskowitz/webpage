@@ -37,6 +37,36 @@
 		<div class="row">
   			<div class="col-md-9">
 				<div class="blogbody">
+					<div class="blogheaders"><a name="DeepProjectsAnchor"><b>Deep Learning Projects</b></a></div>
+					<br>
+
+					<iframe width="600" height="425"
+src="https://www.youtube.com/embed/miPyFmr4iCc">
+</iframe>
+					<br>
+					<br>
+					<p class="lead">Three projects I built as part of my self-study in Deep Learning
+<br>
+<br>
+<strong>Project #1</strong> is an app that can describe your surroundings for the visually impaired. The architecture used is basically the same as that proposed in the original 'show-and-tell' paper (a CNN-LSTM model for image captioning) but with a pre-trained Inception as the CNN.
+<br>
+<br>
+The most difficult part of this project was getting it to work in Android after I discovered, after having already spent almost two weeks training it on the Flickr30k database, that one of the operations was not supported on Android at all. I eventually figured out how to edit and remove nodes from a Tensorflow graph, which is a bit of a hack as you are only meant to be able to add nodes to Tensorflow graphs, not take them away. <a href="https://github.com/TheMoskowitz/tensorflow-surgery">I wrote a guide on how to do this, which is on github.</a>
+<br>
+<br>
+<strong>Project #2</strong> is a vision system for an autonomous vehicle. The neural network categorizes every pixel in its incoming video feed as a) Road, b) Sidewalk, c) Vehicle (including bicycles), d) Person or Other.
+<br>
+<br>
+The model I ended up using was a hybrid of a Unet and a Fully Convolutional Net and I trained it on both the KITTI dataset and then later on the Cityscapes dataset (the final model in the video is trained on Cityscapes). All of the code for each of the variations I experimented with and more detail on their pros and cons <a href="https://github.com/TheMoskowitz/Semantic_Segmentation_for_Autonomous_Driving">is available in the project's github repository.</a>
+<br>
+<br>
+<strong>Project #3</strong> takes raw music audio as its input and transcribes that audio into sheet music. This was the most difficult of the three as it strayed the farthest from what other researchers have done before. It also required the development of a completely new CNN architecture that's better suited for operating on the Short-Time Fourier Transform of the music data and a great deal of creative data augmentation.
+</p>
+								
+					
+					<br>
+					<br>
+					<br>
 					<div class="blogheaders"><a name="RoboTrumpAnchor"><b>Robo-Trump</b></a></div>
 					<br>
 
@@ -137,6 +167,8 @@ I built it with an arduino, a servo, a really cool emic 2 chip I had lying aroun
 							</div>
 
 <p class="projectlinks">
+<a href="#DeepProjectsAnchor">Deep Learning Projects</a>
+<br>	
 <a href="#RoboTrumpAnchor">Robo-Trump</a>
 <br>						
 <a href="#RufusAnchor">Rufus the Personal Assistant</a>
